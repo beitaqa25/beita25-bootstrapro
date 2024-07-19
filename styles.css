@@ -1,0 +1,19 @@
+body {
+    background-color: #000000;
+}
+
+.butongreen {
+    background-color: #3a8c3a;
+}
+
+.black-icon {
+    color: black;
+}
+
+.dropdown-menu .logout {
+    color: red;
+}
+.dropdown-menu .logout:hover {
+    color: darkred;
+}
+
