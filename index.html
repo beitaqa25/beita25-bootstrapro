@@ -32,8 +32,8 @@
                     </form>
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-gear"></i>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> <i class="fa-solid fa-gear"></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -49,44 +49,90 @@
                 </div>
             </div>
         </nav>
-
-        <div class="container text-center mt-3">
-            <div class="row justify-content-center mb-3">
-                <div class="col-auto">
-                    <a href="#" id="grid-3" class="text-decoration-none">
-                        <i class="fa-solid fa-table-cells" style="color: #000000;"></i>
-                    </a>
-                </div>
-                <div class="col-auto">
-                    <a href="#" id="grid-1" class="text-decoration-none">
-                        <i class="fa-solid fa-square" style="color: #0088f0;"></i>
-                    </a>
-                </div>
-            </div>
-            <div id="image-grid" class="row row-cols-3 g-3">
-                <div class="col">
-                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg" class="img-fluid"
-                        alt="post1">
-                </div>
-                <div class="col">
-                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg" class="img-fluid"
-                        alt="post2">
-                </div>
-                <div class="col">
-                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg" class="img-fluid"
-                        alt="post3">
-                </div>
-                <div class="col">
-                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg" class="img-fluid"
-                        alt="post4">
-                </div>
-                <div class="col">
-                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg" class="img-fluid"
-                        alt="post5">
-                </div>
-                <div class="col">
-                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg" class="img-fluid"
-                        alt="post6">
+        <div class="container mt-3">
+            <div class="text-center mb-3">
+                <ul class="nav nav-tabs justify-content-center mb-3" id="image-view">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" data-bs-toggle="tab" href="#three-per-row">
+                            <i class="fa-solid fa-table-cells" style="color: #000000;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#one-per-row">
+                            <i class="fa-solid fa-square" style="color: #0088f0;"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="three-per-row" class="tab-pane fade show active">
+                        <div class="container">
+                            <div id="image-grid" class="row row-cols-3 g-3">
+                                <div class="col">
+                                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg"
+                                        class="img-fluid" alt="post1">
+                                </div>
+                                <div class="col">
+                                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg"
+                                        class="img-fluid" alt="post2">
+                                </div>
+                                <div class="col">
+                                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg"
+                                        class="img-fluid" alt="post3">
+                                </div>
+                                <div class="col">
+                                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg"
+                                        class="img-fluid" alt="post4">
+                                </div>
+                                <div class="col">
+                                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg"
+                                        class="img-fluid" alt="post5">
+                                </div>
+                                <div class="col">
+                                    <img src="https://i.pinimg.com/736x/38/fe/90/38fe9091352c02b45b92b3577e31f3a8.jpg"
+                                        class="img-fluid" alt="post6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="one-per-row" class="tab-pane fade">
+                        <div class="row my-4">
+                            <div class="col-6 mx-auto border rounded p-0">
+                                <div class="d-flex p-2">
+                                    <div class="w-100 fs-4">The greatness of Croatia</div>
+                                    <small>04/09</small>
+                                </div>
+                                <img style="object-fit: cover;"
+                                    src="https://i.pinimg.com/564x/71/57/3d/71573da955b6ec5c771b4372021f800a.jpg"
+                                    class="img-fluid w-100 col-12" alt="" />
+                                <div class="p-2">
+                                    <strong>26985 Likes</strong>
+                                    <p>This is an example of a very good photo that you can post on instagram</p>
+                                </div>
+                                <div class="d-flex p-2">
+                                    <div class="w-100 fs-4">The greatness of Croatia</div>
+                                    <small>04/09</small>
+                                </div>
+                                <img style="object-fit: cover;"
+                                    src="https://i.pinimg.com/736x/ea/4c/63/ea4c63c1e45b7d5fd1448b5ccd5259bd.jpg"
+                                    class="img-fluid w-100 col-12" alt="" />
+                                <div class="p-2">
+                                    <strong>26985 Likes</strong>
+                                    <p>This is an example of a very good photo that you can post on instagram</p>
+                                </div>
+                                <div class="d-flex p-2">
+                                    <div class="w-100 fs-4">The greatness of Croatia</div>
+                                    <small>04/09</small>
+                                </div>
+                                <img style="object-fit: cover;"
+                                    src="https://i.pinimg.com/564x/71/57/3d/71573da955b6ec5c771b4372021f800a.jpg"
+                                    class="img-fluid w-100 col-12" alt="" />
+                                <div class="p-2">
+                                    <strong>26985 Likes</strong>
+                                    <p>This is an example of a very good photo that you can post on instagram</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,10 +163,11 @@
         </div>
     </div>
 
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 </body>
 
 </html>
